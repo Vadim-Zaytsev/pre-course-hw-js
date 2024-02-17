@@ -1,7 +1,10 @@
-const words = ["яблоко", "банан", "апельсин", "манго", "киви"];
+// eslint-disable-next-line
+const words = ['яблоко', 'банан', 'апельсин', 'манго', 'киви'];
 
-if (words.indexOf('апельсин') !== -1) {
+const index = words.indexOf('апельсин');
+
+if (index !== -1) {
     console.log('Ура! нашел');
 } else {
-    console.log('Придется поискать в другом магазине...');
+    console.log('Придется поискать в другом магазине…');
 }
